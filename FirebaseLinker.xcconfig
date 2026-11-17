@@ -1,0 +1,8 @@
+//
+//  FirebaseLinker.xcconfig
+//  SmartDispatch
+//
+//  Created by Julio Garcìa on 15/11/26.
+//
+OTHER_LDFLAGS = $(inherited) -ObjC -force_load "/Users/juliogarcia/Downloads/Firebase/FirebaseAnalytics/GoogleUtilities.xcframework/ios-arm64_x86_64-simulator/GoogleUtilities.framework/GoogleUtilities"
+// https://help.apple.com/xcode/#/dev745c5c974
